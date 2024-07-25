@@ -1,0 +1,61 @@
+@font-face {
+  font-family: digital-7;
+  src: url("digital-7.ttf");
+}
+
+body{
+  margin: 0;
+  background-color: rgba(128, 128, 128, 0.749);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 17% 500px;
+  width: 700px;
+  height: 254px;
+  background-color: #011522;
+  border-radius: 8px;
+  z-index: 1;
+ }
+ 
+ .tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+ }
+ 
+ .circle {
+  padding: 0 4px;
+ }
+ 
+ .box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+ }
+ 
+ .red {
+  background-color: #ff605c;
+ }
+ 
+ .yellow {
+  background-color: #ffbd44;
+ }
+ 
+ .green {
+  background-color: #00ca4e;
+ }
+ #card__content{
+  color: white;
+  margin-left: 10%;
+  width: 100%;
+  margin-top: 5%;
+  font-size: 7rem;
+  font-family: digital-7;
+  
+  
+ }
